@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salvo — Política de privacidad</title>
+<meta name="description" content="Política de privacidad de Salvo, la app de pico y placa, SOAT y mantenimiento de vehículos.">
+<style>
+  :root {
+    --bg: #05070c;
+    --tarjeta: #0b0d14;
+    --borde: #1c2233;
+    --texto: #f2f3f5;
+    --texto-suave: #aab0c0;
+    --texto-tenue: #7d8394;
+    --acento: #7ea6ff;
+    --acento-fuerte: #6d9bff;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--texto);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    padding: 48px 20px 80px;
+  }
+  main {
+    width: 100%;
+    max-width: 680px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  .marca {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  .anillo {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 4px solid var(--acento);
+    box-shadow: 0 0 18px rgba(126, 166, 255, 0.45);
+    flex-shrink: 0;
+  }
+  .nombre {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--texto);
+    letter-spacing: 0.2px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 32px 0 4px;
+  }
+  .actualizado {
+    color: var(--texto-tenue);
+    font-size: 14px;
+    margin: 0 0 28px;
+  }
+  .intro {
+    color: var(--texto-suave);
+    font-size: 16px;
+    margin-bottom: 36px;
+  }
+  h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 34px 0 10px;
+    color: var(--texto);
+  }
+  p, li {
+    color: var(--texto-suave);
+    font-size: 15px;
+  }
+  ul {
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+  li { margin-bottom: 8px; }
+  li::marker { color: var(--acento); }
+  strong { color: var(--texto); font-weight: 600; }
+  a { color: var(--acento); }
+  section {
+    background: var(--tarjeta);
+    border: 1px solid var(--borde);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin-bottom: 16px;
+  }
+  .contacto {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--borde);
+    color: var(--texto-tenue);
+    font-size: 14px;
+  }
+  .contacto a { color: var(--acento-fuerte); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="marca">
+      <span class="anillo" aria-hidden="true"></span>
+      <span class="nombre">Salvo</span>
+    </span>
+  </header>
+
+  <h1>Política de privacidad</h1>
+  <p class="actualizado">Última actualización: 18 de julio de 2026</p>
+
+  <p class="intro">
+    Salvo es una app para no olvidar el pico y placa, los vencimientos del SOAT
+    y la tecnomecánica, y el mantenimiento de tus vehículos. Esta política
+    existe porque las tiendas la exigen — y la nuestra es corta porque la
+    historia real es simple: <strong>no recolectamos nada.</strong>
+  </p>
+
+  <section>
+    <h2>Lo que Salvo NO hace</h2>
+    <ul>
+      <li><strong>No pide cuenta ni registro.</strong> No sabemos quién eres.</li>
+      <li><strong>No recolecta datos personales.</strong> No hay analítica, no hay rastreadores, no hay publicidad, no hay "socios comerciales".</li>
+      <li><strong>No envía tus datos a ningún servidor.</strong> No tenemos servidores de usuarios: no existe una base de datos donde estés tú.</li>
+      <li><strong>No vende ni comparte información.</strong> No hay nada que vender.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Dónde viven tus datos</h2>
+    <p>
+      Todo lo que registras en Salvo — placas, alias de vehículos, fechas de
+      vencimiento del SOAT y la tecnomecánica, historial de mantenimiento,
+      preferencias de avisos — se guarda <strong>únicamente en tu teléfono</strong>,
+      en el almacenamiento privado de la app. Si borras la app, esos datos se
+      borran con ella. Nadie más los ve, incluidos nosotros.
+    </p>
+  </section>
+
+  <section>
+    <h2>Ubicación (opcional y apagada por defecto)</h2>
+    <p>
+      Si activas "Detectar ciudad automáticamente" en Configuración, Salvo usa
+      la ubicación del teléfono para sugerirte el pico y placa de la ciudad
+      donde estás. Así funciona:
+    </p>
+    <ul>
+      <li>El permiso es <strong>solo mientras usas la app</strong> (nunca en segundo plano) y con <strong>precisión baja</strong> — para saber la ciudad no hace falta más.</li>
+      <li>La conversión de coordenadas a nombre de ciudad la hace <strong>tu propio teléfono</strong> (el servicio de geocodificación de iOS o Android). Las coordenadas <strong>nunca se envían a servidores de Salvo</strong> — no los hay.</li>
+      <li>Puedes apagarlo cuando quieras en Configuración, o revocar el permiso desde los ajustes del teléfono. La app sigue funcionando igual, solo que eliges la ciudad a mano.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Las dos conexiones a internet que hace la app</h2>
+    <ul>
+      <li><strong>Tabla pública de ciudades.</strong> Salvo descarga de vez en cuando la lista de ciudades con pico y placa y sus reglas (datos públicos de los decretos, curados por nosotros). Es una descarga de solo lectura: baja reglas, no sube nada tuyo.</li>
+      <li><strong>Importación opcional de historial.</strong> Si usas la función de importar tu historial de mantenimiento desde una hoja de cálculo propia, la app lee esa hoja. También es solo lectura.</li>
+    </ul>
+    <p>Ninguna de las dos lleva identificadores tuyos: ni nombre, ni placa, ni ubicación, ni un ID de dispositivo.</p>
+  </section>
+
+  <section>
+    <h2>Notificaciones</h2>
+    <p>
+      Los avisos de pico y placa y vencimientos se calculan y programan
+      <strong>dentro de tu teléfono</strong>. No usamos notificaciones push remotas.
+    </p>
+  </section>
+
+  <section>
+    <h2>Menores de edad</h2>
+    <p>Salvo no recolecta datos de nadie — tampoco de menores.</p>
+  </section>
+
+  <section>
+    <h2>Cambios a esta política</h2>
+    <p>
+      Si algún día la app cambia de forma que toque esta política (por
+      ejemplo, si agregáramos cuentas opcionales), la actualizaremos aquí y
+      lo verás en la propia app antes de que el cambio te aplique.
+    </p>
+  </section>
+
+  <p class="contacto">
+    Preguntas sobre esta política: <a href="mailto:caov3dv1@gmail.com">caov3dv1@gmail.com</a>
+  </p>
+</main>
+</body>
+</html>
