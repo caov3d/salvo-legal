@@ -1,0 +1,9 @@
+{
+  "_nota": "Configuración remota de la app Salvo. Cambiar 'soat' cuando se cierre un acuerdo con un aliado: las apps lo toman sin publicar versión nueva. url debe ser https. parametroPlaca: nombre del parámetro si el aliado acepta la placa en la URL, o null. patrocinado: true solo con acuerdo comercial firmado.",
+  "soat": {
+    "nombre": "Seguros Falabella",
+    "url": "https://soat.segurosfalabella.com.co/sale/step0",
+    "parametroPlaca": null,
+    "patrocinado": false
+  }
+}
